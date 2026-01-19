@@ -39,8 +39,8 @@ public class PlayerMotor : MonoBehaviour
 
     public void RequestJump()
     {
-        
-            jumpRequested = true;
+        if(isGrounded)
+        {jumpRequested = true;}
     }
 
     void FixedUpdate()

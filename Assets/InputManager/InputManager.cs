@@ -24,7 +24,7 @@ public class InputManager : MonoBehaviour
         recorder.PressJump();
     }
 
-    void OnReset()
+    void OnClone()
     {
         cloneManager.ResetRun();
     }
